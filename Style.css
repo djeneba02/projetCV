@@ -18,7 +18,7 @@ body
     box-shadow: 0 0 5px rgb(0, 0, 0, 0.1);
 /*Contneur cible pour la diviser en deux parties */
 }
-.contenaire
+.conteneur
 {
     width: 88%;
     min-height: 100vh;
@@ -31,7 +31,7 @@ body
     
 }
 /*Stylisation du conteneur gauche */
-.contenaire .left_side
+.conteneur .left_side
 {
    
     color: #fff;
@@ -69,7 +69,7 @@ body
     padding: 20px;
 }
 
-.contenaire .right_side .conta
+.conteneur .right_side .conta
 {
     text-align: justify;
     color: #fff;
