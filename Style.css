@@ -1,8 +1,11 @@
+
+/*J'ai selectionner toute la page pour donner une police et une taille*/
 *
 {
    font-size: 17px;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+/*J'ai selectionner le corps pour donner un fond, une marge,la largeur, la hauteur, les rayons de la dordure*/
 }
 body
 {
@@ -13,6 +16,7 @@ body
     border-radius: 1px #D3D3D3 solid;
     border-radius: 5px;
     box-shadow: 0 0 5px rgb(0, 0, 0, 0.1);
+/*Contneur cible pour la diviser en deux parties */
 }
 .contenaire
 {
@@ -26,14 +30,25 @@ body
     box-shadow: 0 35px 55px rgba(0, 0,  0, 0);
     
 }
+/*Stylisation du conteneur gauche */
 .contenaire .left_side
 {
    
     color: #fff;
     background: #003147;
-    
+    position: relative;
     text-align: justify;
     font-size: 15px;
+#file{
+    width: 100%;
+    padding: 15px;
+
+}
+.left_side .conta ul li{
+    padding: 20px;
+    margin: 10px;
+}
+    
 }
 .imageBox{
     width: 88%;
@@ -41,10 +56,12 @@ body
 }
 .imageBox img{
    padding: 5px;
-    width: 80%;
+    width: 60%;
     
-    border-radius: 1000px;
+    border-radius: 50%;
 }
+
+/*Stylisation du conteneur droit */
 .contenaire .right_side
 {
     position: relative;
