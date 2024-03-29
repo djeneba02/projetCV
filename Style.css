@@ -5,11 +5,19 @@
    font-size: 17px;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-/*J'ai selectionner le corps pour donner un fond, une marge,la largeur, la hauteur, les rayons de la dordure*/
 }
+/*Déclaration de variable*/
+:root{
+    --back-color-a:#ffff;
+    --back-color-b:#003147;
+    --back-color-c:#000000;
+}
+
+/*J'ai selectionner le corps pour donner un fond, une marge,la largeur, la hauteur, les rayons de la dordure*/
+
 body
 {
-    background: lightblue;
+    background: var(--back-color-a);
     margin: 0 auto;
     width:210mm ;
     height: 297mm;
@@ -23,7 +31,7 @@ body
     width: 88%;
     min-height: 100vh;
 
-    background: #ffff;
+    background: var(--back-color-a);
     margin: 40px;
     display: grid;
     grid-template-columns: 1.5fr 2fr;
@@ -34,8 +42,8 @@ body
 .conteneur .left_side
 {
    
-    color: #fff;
-    background: #003147;
+    color: var(--back-color-a);
+    background: var(--back-color-b);
     position: relative;
     text-align: justify;
     font-size: 15px;
@@ -65,14 +73,14 @@ body
 .contenaire .right_side
 {
     position: relative;
-    background: #fff;
+    background: -back-color-1;
     padding: 20px;
 }
 
 .conteneur .right_side .conta
 {
     text-align: justify;
-    color: #fff;
+    color: -back-color-b;
     position: relative;
     padding: 5px;
     margin: 5px;
@@ -91,7 +99,7 @@ body
     list-style:square;
 }
 .right_side h2{
-    color: #417694;
+    color: var(--back-color-b);
     text-align: left;
 
 }
